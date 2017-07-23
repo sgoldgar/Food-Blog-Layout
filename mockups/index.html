@@ -3,26 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Food Blog Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <!-- header with logo, slogan, nav and search bar -->
     <header>
-      <div class="top-info">
-        <img src="#" alt="logo"/>
-        <div class="top-text">
-          <h1>NAME</h1>
-          <h2>Slogan</h2>
+      <div class="top-info columns">
+        <div class="column">
+          <img class="header-logo" src="#" alt="logo"/>
+        </div>
+        <div class="column">
+          <div class="top-text">
+            <h1>NAME</h1>
+            <h2>Slogan</h2>
+          </div>
         </div>
       </div>
       <!-- nav -->
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Recipes by Category</a>
-        <a href="#">How-Tos</a>
-        <input type="text" placeholder="search here"/>
+      <nav class="columns">
+        <div class="nav-links column">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Recipes by Category</a>
+          <a href="#">How-Tos</a>
+        </div>
+        <div class="column">
+          <input id="searchbox" type="text" placeholder="search here"/>
+        </div>
       </nav>
     </header>
+
+    <main class="blog-posts">
+
+    </main>
   </body>
 </html>

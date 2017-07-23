@@ -1,7 +1,7 @@
 {
-  "name": "food_site",
+  "name": "food_blog_layout",
   "version": "1.0.0",
-  "description": "food blog layout for wordpress",
+  "description": "layout for food blog for wordpress",
   "main": "index.js",
   "dependencies": {
     "bulma": "^0.4.3",
@@ -12,6 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:sass": "node-sass sass/main.scss > mockups/main.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoldgar/Food-Blog-Layout.git"
+  },
   "author": "sarah goldgar",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoldgar/Food-Blog-Layout/issues"
+  },
+  "homepage": "https://github.com/sgoldgar/Food-Blog-Layout#readme"
 }

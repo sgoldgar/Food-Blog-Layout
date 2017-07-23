@@ -1,5 +1,16 @@
-.top-info {
+header {
+  min-height: 10em; }
+
+.top-info, nav {
   background: lightblue; }
 
-nav {
-  background: orange; }
+.header-logo {
+  margin-left: 25%; }
+
+.top-text, #searchbox {
+  float: right;
+  margin-right: 25%; }
+
+.nav-links {
+  display: flex;
+  justify-content: space-around; }
