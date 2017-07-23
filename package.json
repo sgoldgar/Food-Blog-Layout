@@ -1,0 +1,17 @@
+{
+  "name": "food_site",
+  "version": "1.0.0",
+  "description": "food blog layout for wordpress",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.4.3",
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "node-sass sass/main.scss > mockups/main.css"
+  },
+  "author": "sarah goldgar",
+  "license": "ISC"
+}
